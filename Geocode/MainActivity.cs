@@ -47,7 +47,6 @@ namespace Geocode
       }
       catch (Exception ex)
       {
-        System.Diagnostics.Debug.WriteLine(ex.StackTrace);
         resultMessage = ex.Message;
       }
 
@@ -62,9 +61,7 @@ namespace Geocode
     {
       var addressText = FindViewById<EditText>(Resource.Id.addressText);
       if (String.IsNullOrEmpty(addressText.Text))
-      {
         throw new Exception(GetString(Resource.String.pleaseProvideAddress));
-      }
       return addressText.Text;
     }
 
