@@ -41,7 +41,6 @@ namespace Geocode
       {
         var geocoder = new Geocoder(this);
         var results = await geocoder.GetFromLocationNameAsync(GetAddressText(), 1);
-        System.Diagnostics.Debug.WriteLine("results: " + results);
         resultMessage = results != null && results.Count > 0 
           ? results[0].Latitude + ", " + results[0].Longitude
           : GetString(Resource.String.couldNotFindLocation);

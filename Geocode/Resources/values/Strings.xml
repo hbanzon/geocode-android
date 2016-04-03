@@ -3,7 +3,7 @@
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">Geocode</string>
 	<string name="geocodeButtonText">Geocode Address</string>
-	<string name="addressHintText">7700 Old Georgetown Rd, Bethesda MD 20814</string>
+	<string name="addressHintText">SFO, 123 Main..., etc.</string>
 	<string name="pleaseProvideAddress">Please provide an address.</string>
 	<string name="couldNotFindLocation">Could not find location.</string>
 	<string name="geocodingProgress">Geocoding Address...</string>
